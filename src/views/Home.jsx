@@ -117,7 +117,6 @@ function Home() {
                                                     <span>09:00 - 22:00</span>
                                                 </ListItemText>
                                             </ListItem>
-                                            <Divider />
                                         </List>
                                     </CardContent>
                                 </Card>
