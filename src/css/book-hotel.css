@@ -1,0 +1,49 @@
+.pl-row {
+    padding: 0 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header.pl-header,
+footer.pl-footer {
+    width: 100%;
+    height: 90px;
+    background-color: #eee;
+}
+
+section.pl-banner {
+    height: 250px;
+    display: flex;
+    align-items: center;
+    background-image: url('http://localhost:3000/img/bg_1.jpg'), linear-gradient(180deg, transparent, rgba(0, 0, 0, .16) 16%, rgba(0, 0, 0, .5));
+    background-size: 100%;
+    background-position: center;
+    background-blend-mode: color;
+}
+
+h1.pl-b__heading {
+    color: #fff;
+    width: 100%;
+    font-size: 38px;
+    margin: 0;
+}
+
+p.pl-b_text {
+    font-size: 16px;
+    margin: 0;
+    color: #fff;
+}
+
+section.pl-info__s {
+    margin: 120px 0;
+}
+
+.pl-content>*:not(:last-child),
+.pl-sidebar>*:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.pl-map {
+    height: 250px;
+    background-color: #e1e1e1;
+}
